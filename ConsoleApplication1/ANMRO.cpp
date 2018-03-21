@@ -17,7 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	Ipp64f *condout = new Ipp64f[46];
 	Ipp64f tau = .5;
 	Ipp64f final = 10;
-    long steps = 500;
+    long steps = 25000;
 	Ipp64f h = final / steps;
 	Ipp64f field45 = 7.91209; // 45 tesla in appropriate units
 	
